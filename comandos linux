@@ -1,0 +1,38 @@
+*Topico 103: GNU and Unix Commands
+
+*103.1 Work on the command line
+
+Commands:
+
+echo $SHELL - Mostra SHELL atual
+
+echo $PATH - variavel de ambiente
+
+env - mostra variaveis globais
+
+export Variavel=Valor - Criar uma variavel exportada
+
+pwd - comando que mostra o diretorio atual em que voce esta
+
+set - mostra variaveis locais e exportadas declaradas no shell atual
+
+unset - unset variavel remove variavel criada
+
+type - Mostra se o comando digitado é interno ou externo
+
+cat - mostra o conteudo de um texto
+
+&& - apt-get update && apt-get upgrade - Se o primeiro comando for ok, o segundo será ok tambem
+
+|| - só executa o segudo comando se o primeiro nao funcionar
+
+; - executa os comandos na sequencia - ls ; date ; pwd
+
+history - historico de comandos digitados
+
+!! - repete o ultimo comando digitado
+
+!20 - executa o comando de numero 20 na lista de history
+
+history -c - limpa a lista do history
+
