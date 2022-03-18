@@ -36,3 +36,7 @@ history - historico de comandos digitados
 
 history -c - limpa a lista do history
 
+control + r - procura por comando no history
+
+whatis tar - mostra descrição do comando digitado
+
